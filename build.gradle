@@ -1,0 +1,75 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = '1.4.10'
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.0"
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+ext.versions = [
+        "compileSdk"    : 29,
+        "minSdk"        : 19,
+        "targetSdk"     : 30,
+        "archTesting"   : "2.1.0",
+        "constraintlayout": "2.0.1",
+        "fragment"     : "1.2.5",
+        "recyclerview"  : "1.1.0",
+        "lifecycle"     : "2.2.0",
+        "dagger"        : "2.28.3",
+        "truth"         : "1.0.1",
+        "mockito"       : "2.23.0",
+        "arch_comp"     : "1.1.1",
+        "retrofit"      : "2.3.0",
+        "rxJava"        : "2.1.1"
+]
+
+ext.deps = [
+        "androidx": [
+                "archtesting": "androidx.arch.core:core-testing:${versions.archTesting}",
+                "constraintlayout": "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+                "fragment": "androidx.fragment:fragment-ktx:${versions.fragment}",
+                "livedata": "androidx.lifecycle:lifecycle-livedata-ktx:${versions.lifecycle}",
+                "recyclerview": "androidx.recyclerview:recyclerview:${versions.recyclerview}",
+                "viewmodel": "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.lifecycle}"
+
+        ],
+        "mockito":[
+                "core": "org.mockito:mockito-core:${versions.mockito}",
+                "mockito_inline": "org.mockito:mockito-inline:${versions.mockito}",
+                "core_testing": "android.arch.core:core-testing:${versions.arch_comp}",
+        ],
+        "retrofit": [
+                "retrofit": "com.squareup.retrofit2:retrofit:${versions.retrofit}",
+                "converter_gson": "com.squareup.retrofit2:converter-gson:${versions.retrofit}",
+                "adapter_rxjava2": "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofit}"
+        ],
+        "rxJava": [
+                "rxJava": "io.reactivex.rxjava2:rxjava:${versions.rxJava}",
+                "rxandroid": "io.reactivex.rxjava2:rxandroid:${versions.rxJava}",
+        ],
+        "dagger": [
+                "core": "com.google.dagger:dagger:${versions.dagger}",
+                "compiler": "com.google.dagger:dagger-compiler:${versions.dagger}"
+        ],
+        "truth": "com.google.truth:truth:${versions.truth}"
+]
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

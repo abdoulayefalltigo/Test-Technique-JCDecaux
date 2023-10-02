@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">JCDecaux Test</string>
+    <string name="Details">Details</string>
+    <string name="infos">Informations</string>
+    <string name="stations">Stations</string>
+    <string name="label_details">Details Station</string>
+    <string name="latLong">Longitude: %.3f, Latitude: %.3f</string>
+    <string name="enable_gps">Please enable your gps</string>
+    <string name="error_message">An error occurred while loading data</string>
+    <string name="permission_request">App requires location permission</string>
+    <string name="label_list_station_fragment">Bike Stations</string>
+    <string name="bikes">Bikes</string>
+    <string name="electrical_bikes">Electrical Bikes</string>
+    <string name="mechanical_bikes">Mechanical Bikes</string>
+    <string name="capacity">Capacity</string>
+    <string name="status">Status</string>
+    <string name="connected">Connected</string>
+    <string name="overflow">Overflow</string>
+    <string name="bonus">Bonus</string>
+    <string name="connect">Connected</string>
+    <string name="banking">Banking</string>
+    <string name="name">Name</string>
+    <string name="settings">Settings</string>
+
+
+</resources>

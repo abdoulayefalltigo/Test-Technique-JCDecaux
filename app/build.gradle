@@ -65,10 +65,6 @@ dependencies {
     implementation deps.rxJava.rxandroid
 
 
-    //Timber
-    // Logging
-    implementation 'com.jakewharton.timber:timber:4.7.1'
-
     testImplementation deps.mockito.core
     testImplementation deps.mockito.mockito_inline
     testImplementation deps.mockito.core_testing

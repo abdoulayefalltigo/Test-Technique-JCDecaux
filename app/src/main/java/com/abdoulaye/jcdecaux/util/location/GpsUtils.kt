@@ -15,7 +15,7 @@ import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.LocationSettingsRequest
 import com.google.android.gms.location.LocationSettingsStatusCodes
 import com.google.android.gms.location.SettingsClient
-import com.abdoulaye.jcdecaux.model.LocationLiveData
+import com.abdoulaye.jcdecaux.api.LocationLiveData
 import com.abdoulaye.jcdecaux.util.Const.GPS_REQUEST
 
 

@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.abdoulaye.jcdecaux.di.AppModule
 import com.abdoulaye.jcdecaux.di.DaggerViewModelComponent
-import com.abdoulaye.jcdecaux.model.ApiServices
+import com.abdoulaye.jcdecaux.api.ApiServices
 import com.abdoulaye.jcdecaux.model.BicycleStation
 
 import io.reactivex.android.schedulers.AndroidSchedulers

@@ -1,6 +1,6 @@
 package com.abdoulaye.jcdecaux.di
 
-import com.abdoulaye.jcdecaux.model.ApiServices
+import com.abdoulaye.jcdecaux.api.ApiServices
 import dagger.Component
 
 @Component(modules = [ApiModule::class])

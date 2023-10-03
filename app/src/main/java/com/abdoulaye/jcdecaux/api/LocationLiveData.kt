@@ -1,9 +1,10 @@
-package com.abdoulaye.jcdecaux.model
+package com.abdoulaye.jcdecaux.api
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.location.Location
 import androidx.lifecycle.LiveData
+import com.abdoulaye.jcdecaux.model.LocationModel
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.LocationResult

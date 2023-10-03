@@ -1,4 +1,4 @@
-package com.abdoulaye.jcdecaux.model
+package com.abdoulaye.jcdecaux.api
 
 import okhttp3.CacheControl
 import okhttp3.Interceptor

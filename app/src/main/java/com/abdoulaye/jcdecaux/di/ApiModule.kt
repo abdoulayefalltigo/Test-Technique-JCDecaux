@@ -1,9 +1,9 @@
 package com.abdoulaye.jcdecaux.di
 
-import com.abdoulaye.jcdecaux.model.ApiBicycleStations
-import com.abdoulaye.jcdecaux.model.ApiServices
-import com.abdoulaye.jcdecaux.model.BicycleStationInterceptor
-import com.abdoulaye.jcdecaux.model.CacheInterceptor
+import com.abdoulaye.jcdecaux.api.ApiBicycleStations
+import com.abdoulaye.jcdecaux.api.ApiServices
+import com.abdoulaye.jcdecaux.api.BicycleStationInterceptor
+import com.abdoulaye.jcdecaux.api.CacheInterceptor
 import com.abdoulaye.jcdecaux.util.Const.BASE_URL
 import dagger.Module
 import dagger.Provides

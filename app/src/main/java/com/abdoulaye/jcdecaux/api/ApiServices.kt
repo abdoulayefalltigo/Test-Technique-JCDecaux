@@ -1,6 +1,7 @@
-package com.abdoulaye.jcdecaux.model
+package com.abdoulaye.jcdecaux.api
 
 import com.abdoulaye.jcdecaux.di.DaggerApiComponent
+import com.abdoulaye.jcdecaux.model.BicycleStation
 import io.reactivex.Single
 import javax.inject.Inject
 

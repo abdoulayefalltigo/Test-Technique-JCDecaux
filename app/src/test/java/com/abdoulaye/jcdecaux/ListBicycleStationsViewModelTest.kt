@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.abdoulaye.jcdecaux.di.AppModule
 import com.abdoulaye.jcdecaux.di.DaggerViewModelComponent
-import com.abdoulaye.jcdecaux.model.ApiServices
+import com.abdoulaye.jcdecaux.api.ApiServices
 import com.abdoulaye.jcdecaux.model.BicycleStation
 import com.abdoulaye.jcdecaux.viewmodel.ListBCStationsViewModel
 import io.reactivex.Scheduler

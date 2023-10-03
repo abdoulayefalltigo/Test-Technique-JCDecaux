@@ -1,5 +1,6 @@
-package com.abdoulaye.jcdecaux.model
+package com.abdoulaye.jcdecaux.api
 
+import com.abdoulaye.jcdecaux.model.BicycleStation
 import com.abdoulaye.jcdecaux.util.Const.GET_STATIONS
 import io.reactivex.Single
 import retrofit2.http.GET

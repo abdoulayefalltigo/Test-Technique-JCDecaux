@@ -61,12 +61,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginBottom="150dp"
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:clickable="true"
+                    android:clickable="false"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="5dp"
@@ -260,12 +261,13 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:clickable="true"
+                    android:clickable="false"
                     android:foreground="?android:attr/selectableItemBackground"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="5dp"
                     app:cardUseCompatPadding="true"
                     app:contentPadding="16dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -284,10 +286,10 @@
                                 android:id="@+id/switch1"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:checked="@{bicycleStation.bonus}"
+                                android:clickable="false"
                                 android:text="@string/bonus"
                                 android:textSize="17sp"
-                                android:clickable="false"
-                                android:checked="@{bicycleStation.bonus}"
                                 tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                         </LinearLayout>
@@ -305,15 +307,16 @@
                                 android:id="@+id/switch2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:checked="@{bicycleStation.banking}"
+                                android:clickable="false"
                                 android:text="@string/banking"
                                 android:textSize="17sp"
-                                android:clickable="false"
-                                android:checked="@{bicycleStation.banking}"
                                 tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                         </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -323,7 +326,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:clickable="true"
+                        android:clickable="false"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="5dp"
@@ -377,7 +380,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:clickable="true"
+                        android:clickable="false"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="5dp"
@@ -437,7 +440,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:clickable="true"
+                        android:clickable="false"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="5dp"
@@ -490,7 +493,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:clickable="true"
+                        android:clickable="false"
                         android:foreground="?android:attr/selectableItemBackground"
                         app:cardCornerRadius="4dp"
                         app:cardElevation="5dp"

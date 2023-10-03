@@ -1,4 +1,4 @@
-package com.abdoulaye.jcdecaux.ui.fragment
+package com.abdoulaye.jcdecaux.fragment
 
 
 import android.os.Bundle

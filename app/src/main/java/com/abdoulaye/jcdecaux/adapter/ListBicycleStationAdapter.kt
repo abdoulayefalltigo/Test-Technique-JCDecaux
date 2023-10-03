@@ -8,7 +8,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.abdoulaye.jcdecaux.R
 import com.abdoulaye.jcdecaux.databinding.ItemBikeStationBinding
-import com.abdoulaye.jcdecaux.ui.fragment.ListBicycleStationsFragmentDirections
+import com.abdoulaye.jcdecaux.fragment.ListBicycleStationsFragmentDirections
 import com.abdoulaye.jcdecaux.model.BicycleStation
 import com.abdoulaye.jcdecaux.listener.StationClickListener
 

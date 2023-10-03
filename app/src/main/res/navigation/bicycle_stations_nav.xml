@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.abdoulaye.jcdecaux.ui.fragment.ListBicycleStationsFragment"
+        android:name="com.abdoulaye.jcdecaux.fragment.ListBicycleStationsFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_list_stations">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.abdoulaye.jcdecaux.ui.fragment.BicycleStationDetailFragment"
+        android:name="com.abdoulaye.jcdecaux.fragment.BicycleStationDetailFragment"
         android:label=""
         tools:layout="@layout/fragment_station_detail">
         <action
